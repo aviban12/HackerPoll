@@ -1,0 +1,49 @@
+<h1>Admin</h1>
+<div class="btn"><button name="Add" (click)="addhacker()">Add</button> &nbsp;
+    <button name="Delete" (click)="deletehacker()">Delete</button>&nbsp;
+    <button name="Edit" (click)="edithacker()">Edit</button>&nbsp;
+</div>
+<br>
+<br>
+<div id="Addhacker">
+    <form #addform="ngForm" (ngSubmit)="addhacker()">
+        Name:<input type="text" #name="ngModel" [(ngModel)]="Expert.name" name="hackername" #name="ngModel" placeholder="Name" required/>
+        <br> <br> Number of Challanges Solved:<input type="text" name="challanges" #challanges="ngModel" [(ngModel)]="Expert.challanges" placeholder="Challanges Solved" required/>
+        <br><br> Expertise Level
+        <select [(ngModel)]="Expert.expertise" name="expertise">
+          <option value= "1" >1</option>
+          <option value= "2" >2</option>
+          <option value= "3" >3</option>
+          <option value= "4" >4</option>
+          <option value= "5" >5</option>
+        </select><br><br>Data Structure
+        <select [(ngModel)]="Expert.DS" name="DS">
+          <option value= "1" >1</option>
+          <option value= "2" >2</option>
+          <option value= "3" >3</option>
+          <option value= "4" >4</option>
+          <option value= "5" >5</option>
+        </select><br><br>Algorithms
+        <select [(ngModel)]="Expert.Algo" name="Expertise Level">
+          <option value= "1" >1</option>
+          <option value= "2" >2</option>
+          <option value= "3" >3</option>
+          <option value= "4" >4</option>
+          <option value= "5" >5</option>
+        </select><br><br>C++
+        <select [(ngModel)]="Expert.Cpp" name="Expertise Level">
+          <option value= "1" >1</option>
+          <option value= "2" >2</option>
+          <option value= "3" >3</option>
+          <option value= "4" >4</option>
+          <option value= "5" >5</option>
+        </select><br><br> Python
+        <select [(ngModel)]="Expert.Python" name="Expertise Level">
+          <option value= "1" >1</option>
+          <option value= "2" >2</option>
+          <option value= "3" >3</option>
+          <option value= "4" >4</option>
+          <option value= "5" >5</option>
+        </select><br><br>
+        <button>Add</button></form>
+</div>

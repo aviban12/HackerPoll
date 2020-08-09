@@ -1,0 +1,64 @@
+* {
+    box-sizing: border-box
+}
+
+.information-container {
+    margin: 5px;
+    float: left;
+}
+
+h2 {
+    width: 100%;
+    margin: 0%;
+    height: 50%;
+    background-color: black;
+    color: #ddd;
+}
+
+.container {
+    width: 100%;
+    height: 50%;
+    background-color: #ddd;
+}
+
+.skills {
+    text-align: center;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    color: white;
+}
+
+.challanges {
+    width: 100%;
+    background-color: #4CAF50;
+}
+
+.python {
+    width: 100%;
+    background-color: #4CAF50;
+}
+
+.Cpp {
+    width: 100%;
+    background-color: #2196F3;
+}
+
+.expertise {
+    width: 100%;
+    background-color: #f44336;
+}
+
+.DS {
+    width: 100%;
+    background-color: #808080;
+}
+
+.Algo {
+    width: 100%;
+    background-color: #354643;
+}
+
+.vote {
+    width: 100%;
+    background-color: #f44336;
+}

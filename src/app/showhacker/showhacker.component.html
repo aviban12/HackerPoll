@@ -1,0 +1,33 @@
+<div class="information-container" *ngFor="let data of hackerdatastore">
+    <h2>{{ data.name }}</h2>
+    <div class="container">
+        Challanges
+        <div class="skills challanges">{{ data.challanges }}</div>
+    </div>
+    <div class="container">
+        Expertise
+        <div class="skills expertise"> {{ data.expertise }}</div>
+    </div>
+    <div class="container ">
+        Data Structure
+        <div class="skills DS">{{ data.DS }}</div>
+    </div>
+    <div class="container">
+        Algorithm
+        <div class="skills Algo">{{ data.Algo }}</div>
+    </div>
+    <div class="container">
+        C++
+        <div class="skills Cpp">{{ data.Cpp }}</div>
+    </div>
+    <div class="container">
+        Python
+        <div class="skills python">{{ data.python }}</div>
+    </div>
+    <div class="container">
+        Vote
+        <div class="skills vote">{{ data.vote }}</div>
+    </div>
+    <br>
+    <button (click)="onVote($event, data)">Vote</button>
+</div>

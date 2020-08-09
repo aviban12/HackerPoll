@@ -5,7 +5,7 @@ var http = require('http').Server(app)
 var mongoose = require('mongoose');
 
 
-const uri = "mongodb+srv://avishbansal2:xgyVem4mfbV37yDd@cluster0-lstro.mongodb.net/User?retryWrites=true&w=majority"
+const uri = ""
 
 app.use(bodyParser.json());
 var Hackerdata = mongoose.model('Data', {
